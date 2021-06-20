@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    background-color: #222;
+}
+body {
+    max-width: 500px;
+    height: 500px;
+    margin: 0;
+    display: inline;
+}
+#container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 300px;
+    margin-left: 0px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+#container h1 {
+    background-color: #fff;
+}
+
+#container input {
+    background-color: #fff;
+    margin: 10px 5px;
+    padding: 10px 0;
+}
+
+#container button{
+    background-color: #6B8E23;
+    color: #fff;
+    padding: 10px 0px;
+    width: 50px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#campo-msg {
+    float: right;
+    background-color: #fff;
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 500px;
+
+}
+.mensagem {
+    background-color: #fff;
+
+}
+.usuario{
+    color: red;
+    background-color: #fff;
+
+}
+.outro-usuario{
+    color: blue;
+    background-color: #fff;
+
+}
