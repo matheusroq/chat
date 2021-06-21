@@ -9,7 +9,7 @@ body {
     display: inline;
 }
 #container {
-    background-color: #fff;
+    
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -19,7 +19,7 @@ body {
     margin-top: 50px;
 }
 #container h1 {
-    background-color: #fff;
+  color: #fff; 
 }
 
 #container input {
@@ -35,6 +35,9 @@ body {
     width: 50px;
     align-self: center;
     margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
 }
 
 #campo-msg {
